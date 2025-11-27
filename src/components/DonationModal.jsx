@@ -19,11 +19,16 @@ const DonationModal = ({ isOpen, onClose, onDownload }) => {
                             </div>
                             <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                 <h3 className="text-lg leading-6 font-medium text-gray-900" id="modal-title">
-                                    Support the Creator?
+                                    Help Me Keep This Free 💙
                                 </h3>
                                 <div className="mt-2">
-                                    <p className="text-sm text-gray-500">
-                                        This prompt pack is 100% free. However, if you find it valuable, buying me a coffee helps me create more free tools like this!
+                                    <p className="text-sm text-gray-600">
+                                        I spent 40+ hours researching and testing these prompts so you don't have to.
+                                        If this pack saves you even 1 hour, consider buying me a coffee.
+                                        It helps me create more free tools like this!
+                                    </p>
+                                    <p className="text-xs text-gray-500 mt-2">
+                                        ☕ = 1 hour of research | 🍕 = New prompt pack next month
                                     </p>
                                 </div>
                             </div>
