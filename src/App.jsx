@@ -1,0 +1,51 @@
+import React, { useState } from 'react';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import DonationModal from './components/DonationModal';
+import promptPackUrl from './assets/SEO_Blog_Writing_Prompts.md?url';
+
+function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleGetStarted = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const handleDownload = () => {
+    // Create a temporary link to trigger download
+    const link = document.createElement('a');
+    link.href = promptPackUrl;
+    link.download = 'SEO_Blog_Writing_Prompts.md';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    setIsModalOpen(false);
+    alert("Thanks! Your download should start shortly.");
+  };
+
+  return (
+    <div className="min-h-screen bg-white">
+      <Hero onGetStarted={handleGetStarted} />
+      <Features />
+
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p>&copy; 2025 AI Prompt Tools. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <DonationModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        onDownload={handleDownload}
+      />
+    </div>
+  );
+}
+
+export default App;
