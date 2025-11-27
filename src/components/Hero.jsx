@@ -8,11 +8,11 @@ const Hero = ({ onGetStarted }) => {
                     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                                <span className="block xl:inline">Write SEO Content</span>{' '}
-                                <span className="block text-primary xl:inline">10x Faster with AI</span>
+                                <span className="block xl:inline">Go Viral on Social Media</span>{' '}
+                                <span className="block text-primary xl:inline">in 2025</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                Stop staring at a blank cursor. Get our curated pack of high-performance AI prompts designed specifically for SEO blog writing.
+                                12 battle-tested AI prompts to create scroll-stopping content for Instagram, TikTok, Twitter/X, and more. Stop guessing—start growing.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">

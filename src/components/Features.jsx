@@ -2,24 +2,24 @@ import React from 'react';
 
 const features = [
     {
-        name: 'Keyword Research',
-        description: 'Uncover high-intent long-tail keywords that your competitors are missing.',
-        icon: '🔍',
+        name: 'Viral Hooks & Scripts',
+        description: 'Generate attention-grabbing hooks and complete video scripts for Reels, TikToks, and Shorts.',
+        icon: '🎬',
     },
     {
-        name: 'Skyscraper Outlines',
-        description: 'Generate comprehensive outlines that structure your content for featured snippets.',
-        icon: '🏗️',
+        name: 'Thread & Carousel Builders',
+        description: 'Turn any idea into high-engagement Twitter threads and Instagram carousels in seconds.',
+        icon: '📱',
     },
     {
-        name: 'Humanizer Prompts',
-        description: 'Rewrite AI-generated text to sound natural, engaging, and undetectable.',
-        icon: '🗣️',
+        name: 'Content Repurposing',
+        description: 'Transform one piece of content into 10+ platform-specific posts. Work smarter, not harder.',
+        icon: '♻️',
     },
     {
-        name: 'Meta Description Magic',
-        description: 'Create click-worthy titles and meta descriptions in seconds.',
-        icon: '✨',
+        name: 'Engagement Boosters',
+        description: 'Craft replies, questions, and CTAs that spark conversations and grow your following.',
+        icon: '💬',
     },
 ];
 
@@ -30,10 +30,10 @@ const Features = () => {
                 <div className="lg:text-center">
                     <h2 className="text-base text-primary font-semibold tracking-wide uppercase">What's Inside</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        Everything you need to rank
+                        Everything you need to go viral
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        This isn't just a random list. It's a workflow used by pro SEOs to scale content production.
+                        12 plug-and-play prompts used by top creators to grow their audience and boost engagement.
                     </p>
                 </div>
 

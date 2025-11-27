@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import DonationModal from './components/DonationModal';
-import promptPackUrl from './assets/SEO_Blog_Writing_Prompts.md?url';
+import promptPackUrl from './assets/Viral_Social_Media_Prompts.md?url';
 
 import { trackEvent } from './analytics';
 
@@ -24,7 +24,7 @@ function App() {
     // Create a temporary link to trigger download
     const link = document.createElement('a');
     link.href = promptPackUrl;
-    link.download = 'SEO_Blog_Writing_Prompts.md';
+    link.download = 'Viral_Social_Media_Prompts.md';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
