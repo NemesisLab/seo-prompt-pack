@@ -4,18 +4,23 @@ import Features from './components/Features';
 import DonationModal from './components/DonationModal';
 import promptPackUrl from './assets/SEO_Blog_Writing_Prompts.md?url';
 
+import { trackEvent } from './analytics';
+
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleGetStarted = () => {
+    trackEvent('click_get_started');
     setIsModalOpen(true);
   };
 
   const handleCloseModal = () => {
+    trackEvent('modal_closed');
     setIsModalOpen(false);
   };
 
   const handleDownload = () => {
+    trackEvent('download_product', { type: 'free_skip' });
     // Create a temporary link to trigger download
     const link = document.createElement('a');
     link.href = promptPackUrl;

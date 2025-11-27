@@ -1,4 +1,5 @@
 import React from 'react';
+import { trackEvent } from '../analytics';
 
 const DonationModal = ({ isOpen, onClose, onDownload }) => {
     if (!isOpen) return null;
@@ -34,7 +35,7 @@ const DonationModal = ({ isOpen, onClose, onDownload }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={() => {
-                                // Optional: track click
+                                trackEvent('click_donation');
                                 setTimeout(onDownload, 2000); // Start download after a delay or let them come back and click skip
                             }}
                             className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-yellow-400 text-base font-medium text-gray-900 hover:bg-yellow-500 focus:outline-none sm:ml-3 sm:w-auto sm:text-sm"
