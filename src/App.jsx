@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Testimonials from './components/Testimonials';
 import DonationModal from './components/DonationModal';
-import promptPackUrl from './assets/Viral_Social_Media_Prompts.md?url';
 
 import { trackEvent } from './analytics';
 
@@ -24,8 +23,8 @@ function App() {
     trackEvent('download_product', { type: 'free_skip' });
     // Create a temporary link to trigger download
     const link = document.createElement('a');
-    link.href = promptPackUrl;
-    link.download = 'Viral_Social_Media_Prompts.md';
+    link.href = '/Viral_Social_Media_Prompts.pdf';
+    link.download = 'Viral_Social_Media_Prompts.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
