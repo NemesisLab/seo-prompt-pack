@@ -8,10 +8,10 @@ const Hero = ({ onGetStarted }) => {
                     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                         <div className="sm:text-center lg:text-left">
                             <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                                Go Viral on Social Media in 2025 with <span className="text-primary">Free AI Prompts</span>
+                                Turn Your Social Media Into a <span className="text-primary">Growth Machine</span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                                12 battle-tested AI prompts to create scroll-stopping content for Instagram, TikTok, Twitter/X, and more. Stop guessing—start growing.
+                                Get 12 AI prompts that top creators use to write viral hooks, build engaged audiences, and turn followers into customers. No fluff, just results.
                             </p>
                             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                                 <div className="rounded-md shadow">
@@ -27,14 +27,14 @@ const Hero = ({ onGetStarted }) => {
                             {/* Social Proof */}
                             <div className="mt-4 sm:text-center lg:text-left">
                                 <p className="text-sm text-gray-600">
-                                    🔥 <strong>2,847 creators</strong> downloaded this week
+                                    <strong>2,847 creators</strong> downloaded this week
                                 </p>
                             </div>
 
                             {/* Urgency Banner */}
                             <div className="mt-6 bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
                                 <p className="text-sm text-yellow-800">
-                                    ⚡ <strong>Bonus:</strong> Get our "Viral Formula Cheat Sheet" (worth $9) FREE when you download today!
+                                    <strong>Bonus included:</strong> The Viral Formula Cheat Sheet — yours free with download
                                 </p>
                             </div>
                         </div>

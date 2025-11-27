@@ -15,20 +15,18 @@ const DonationModal = ({ isOpen, onClose, onDownload }) => {
                     <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                         <div className="sm:flex sm:items-start">
                             <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-green-100 sm:mx-0 sm:h-10 sm:w-10">
-                                <span className="text-2xl">☕</span>
+
                             </div>
                             <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                                 <h3 className="text-lg leading-6 font-medium text-gray-900" id="modal-title">
-                                    Help Me Keep This Free 💙
+                                    Help Keep This Free
                                 </h3>
                                 <div className="mt-2">
                                     <p className="text-sm text-gray-600">
-                                        I spent 40+ hours researching and testing these prompts so you don't have to.
-                                        If this pack saves you even 1 hour, consider buying me a coffee.
-                                        It helps me create more free tools like this!
+                                        I spent weeks testing these prompts with real creators to make sure they actually work. This pack is free because I believe everyone deserves access to tools that help them grow.
                                     </p>
-                                    <p className="text-xs text-gray-500 mt-2">
-                                        ☕ = 1 hour of research | 🍕 = New prompt pack next month
+                                    <p className="text-sm text-gray-600 mt-2">
+                                        If it saves you time or helps you create better content, consider supporting the work. Your contribution helps me build more resources like this.
                                     </p>
                                 </div>
                             </div>
@@ -45,7 +43,7 @@ const DonationModal = ({ isOpen, onClose, onDownload }) => {
                             }}
                             className="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-yellow-400 text-base font-medium text-gray-900 hover:bg-yellow-500 focus:outline-none sm:ml-3 sm:w-auto sm:text-sm"
                         >
-                            Buy me a Coffee ☕
+                            Support This Work
                         </a>
                         <button
                             type="button"
@@ -56,8 +54,8 @@ const DonationModal = ({ isOpen, onClose, onDownload }) => {
                         </button>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     );
 };
 

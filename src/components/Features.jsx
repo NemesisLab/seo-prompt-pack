@@ -3,23 +3,23 @@ import React from 'react';
 const features = [
     {
         name: 'Viral Hooks & Scripts',
-        description: 'Generate attention-grabbing hooks and complete video scripts for Reels, TikToks, and Shorts.',
-        icon: '🎬',
+        description: 'Write attention-grabbing hooks and complete video scripts that stop the scroll. Perfect for Reels, TikToks, and YouTube Shorts.',
+        icon: '▲',
     },
     {
         name: 'Thread & Carousel Builders',
-        description: 'Turn any idea into high-engagement Twitter threads and Instagram carousels in seconds.',
-        icon: '📱',
+        description: 'Turn a single idea into Twitter threads that get retweeted and Instagram carousels people actually swipe through.',
+        icon: '◆',
     },
     {
         name: 'Content Repurposing',
-        description: 'Transform one piece of content into 10+ platform-specific posts. Work smarter, not harder.',
-        icon: '♻️',
+        description: 'One blog post becomes 10+ social posts. Spend less time creating, more time engaging with your audience.',
+        icon: '∞',
     },
     {
         name: 'Engagement Boosters',
-        description: 'Craft replies, questions, and CTAs that spark conversations and grow your following.',
-        icon: '💬',
+        description: 'Write replies that get noticed, questions that spark debate, and CTAs that people actually click.',
+        icon: '↗',
     },
 ];
 
@@ -28,12 +28,12 @@ const Features = () => {
         <div className="py-12 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="lg:text-center">
-                    <h2 className="text-base text-primary font-semibold tracking-wide uppercase">What's Inside</h2>
+                    <h2 className="text-base text-primary font-semibold tracking-wide uppercase">What You Get</h2>
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        Everything you need to go viral
+                        The exact prompts that drive real results
                     </p>
                     <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        12 plug-and-play prompts used by top creators to grow their audience and boost engagement.
+                        These aren't random templates. They're the same prompts creators with 50K+ followers use daily to grow their accounts.
                     </p>
                 </div>
 
